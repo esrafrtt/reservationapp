@@ -23,7 +23,7 @@ public class ReadData {
 	@SuppressWarnings("unchecked")
 	public void ReadDataFromFile() {
 		JSONParser parser=new JSONParser();
-		File dataBaseFile=new File("LaundryDataset.json");
+		File dataBaseFile=new File("reservationDataset.json");
 		try {
 			FileReader fileReader=new FileReader(dataBaseFile);
 			Object parsedFile = parser.parse(fileReader);

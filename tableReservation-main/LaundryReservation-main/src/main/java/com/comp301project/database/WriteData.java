@@ -41,7 +41,7 @@ public class WriteData {
 
 	private void handleSavingToFile(JSONArray allMachines) {
 		try {
-			file = new FileWriter("LaundryDataset.json");
+			file = new FileWriter("reservationDataset.json");
 	        file.write(allMachines.toJSONString());
 		}
 		catch(Exception exception) {
